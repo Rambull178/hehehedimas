@@ -1,0 +1,57 @@
+<html>
+  <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>6B Collection</title>
+   <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="header">
+      <p class="title">Mau Ga Jadi Pacar aku😘</p>
+      
+    </div><br><br>
+  <div class="content">
+    <button onclick="Mau()" class="button">Iya</button>
+    <button onclick="nolak()" id="nolak" class="button-nolak">Ga</button>
+  </div>
+    <button onclick="nolak1()" id="nolak1" class="button-nolak1">Ga</button>
+    <br><br>
+    <button onclick="nolak2()" id="nolak2" class="button-nolak2">Ga</button>
+      <br><br>
+    <button onclick="nolak3()" id="nolak3" class="button-nolak3">Ga</button>
+  <center>
+    <div onclick="style.visibility='hidden' "id="terima" class="box-jawaban">
+     <br><br>Maaf aku udah punya istri😔
+    </div></center>
+   <p class="mini-title">Dimas Kunnn</p>
+  </body>
+</html>
+<script>
+  function Mau(){
+    var terima = document.getElementById("terima");
+    terima.style.visibility = "visible";
+  }
+  function nolak(){
+  var nolak = document.getElementById("nolak");
+  var nolak1 = document.getElementById("nolak1");
+     nolak.style.visibility= "hidden";
+     nolak1.style.visibility = "visible";
+  }
+  function nolak1(){
+var nolak1 = document.getElementById("nolak1");
+var nolak2 = document.getElementById("nolak2");
+    nolak1.style.visibility = "hidden";
+    nolak2.style.visibility = "visible";
+  }
+  function nolak2(){
+    var nolak2 = document.getElementById("nolak2");
+    var nolak3 = document.getElementById("nolak3");
+    nolak2.style.visibility = "hidden";
+    nolak3.style.visibility = "visible";
+  }
+  function nolak3(){
+  var nolak = document.getElementById("nolak");
+    var nolak3 = document.getElementById("nolak3");
+    nolak3.style.visibility = "hidden";
+    nolak.style.visibility = "visible"
+  }
+</script>
